@@ -8,8 +8,8 @@ The PHPStore is not yet working 100%;
 
 `$config = new Zilla\Config\ConfigService();`
 
-`$config->set('key', 'foo')`
+`$config->set('key', 'foo');`
 
-`$config->get('key')`
+`$config->get('key');`
 
 Check the source or tests for further functionallity.
