@@ -1,0 +1,11 @@
+{
+    "name": "bastian/config",
+    "require": {
+
+    },
+    "autoload": {
+       "psr-0": {
+            "Zilla": "src/"
+        } 
+    }
+}
