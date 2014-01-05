@@ -17,7 +17,7 @@ class ConfigService {
 
     protected $delimiter;
 
-    public function __construct(array $items = [], StoreInterface $store = null, $delimiter = '.')
+    public function __construct(array $items = array(), StoreInterface $store = null, $delimiter = '.')
     {
         $this->items = $items;
 
